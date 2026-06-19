@@ -1,0 +1,196 @@
+{
+  "users": [
+    {
+      "_id": "27zndxcbamqivyf8g",
+      "id": "wjiq52thqmqivyf8g",
+      "createdAt": "2026-06-18T02:33:36.160Z",
+      "updatedAt": "2026-06-18T02:33:36.161Z",
+      "name": "System Admin",
+      "email": "admin@company.com",
+      "password": "$2a$10$YHJ/SO7tiMd3LeArkW2pf.3X7WzwK8QGFeFCHmgDs//a2qW8UZwua",
+      "role": "admin",
+      "department": "IT / Operations",
+      "designation": "System Administrator",
+      "salary": 120000,
+      "status": "active"
+    },
+    {
+      "_id": "gsj0kwv84mqivyf8i",
+      "id": "e6z73o5ndmqivyf8i",
+      "createdAt": "2026-06-18T02:33:36.162Z",
+      "updatedAt": "2026-06-18T02:33:36.162Z",
+      "name": "Sarah Jenkins",
+      "email": "hr@company.com",
+      "password": "$2a$10$YHJ/SO7tiMd3LeArkW2pf.3X7WzwK8QGFeFCHmgDs//a2qW8UZwua",
+      "role": "hr",
+      "department": "Human Resources",
+      "designation": "HR Lead",
+      "salary": 80000,
+      "status": "active"
+    },
+    {
+      "_id": "kgkqryli9mqivyf8i",
+      "id": "7m49n14x4mqivyf8i",
+      "createdAt": "2026-06-18T02:33:36.162Z",
+      "updatedAt": "2026-06-18T02:33:36.162Z",
+      "name": "Alex Rivera",
+      "email": "employee@company.com",
+      "password": "$2a$10$YHJ/SO7tiMd3LeArkW2pf.3X7WzwK8QGFeFCHmgDs//a2qW8UZwua",
+      "role": "employee",
+      "department": "Engineering",
+      "designation": "Fullstack Engineer",
+      "salary": 95000,
+      "status": "active"
+    },
+    {
+      "_id": "5d40ksuo1mqivyf8j",
+      "id": "zisl18iw9mqivyf8j",
+      "createdAt": "2026-06-18T02:33:36.163Z",
+      "updatedAt": "2026-06-18T02:33:36.163Z",
+      "name": "Liam Chen",
+      "email": "liam@company.com",
+      "password": "$2a$10$YHJ/SO7tiMd3LeArkW2pf.3X7WzwK8QGFeFCHmgDs//a2qW8UZwua",
+      "role": "employee",
+      "department": "Marketing",
+      "designation": "Marketing Specialist",
+      "salary": 65000,
+      "status": "active"
+    },
+    {
+      "_id": "2hbybrmfmmqkrleid",
+      "id": "3s2nx4m7bmqkrleid",
+      "createdAt": "2026-06-19T10:07:02.581Z",
+      "updatedAt": "2026-06-19T10:07:02.581Z",
+      "name": "lohit",
+      "email": "lohitkumar3017@gmail.com",
+      "password": "$2a$10$75EtPBgZLAik33pHwnwDieWrzrEBOBuy7PvSdBVGAYdb00UQQGVPm",
+      "role": "employee",
+      "department": "it",
+      "designation": "lead",
+      "salary": 60000
+    },
+    {
+      "_id": "ihkyagte7mqkszak8",
+      "id": "09cxmixlamqkszak8",
+      "createdAt": "2026-06-19T10:45:50.264Z",
+      "updatedAt": "2026-06-19T10:45:50.264Z",
+      "name": "lohit kumar",
+      "email": "lohitkumar30009@gmail.com",
+      "password": "$2a$10$M9ZdiwhohIjMRueaHxufxetJr6URe7FJ9WgTqOJ0tTGlav4x/t6v2",
+      "role": "admin",
+      "department": "it",
+      "designation": "lead",
+      "salary": 120000
+    }
+  ],
+  "leaves": [
+    {
+      "_id": "7lsneeg5vmqivyf8j",
+      "id": "z553j7jd7mqivyf8j",
+      "createdAt": "2026-06-18T02:33:36.163Z",
+      "updatedAt": "2026-06-18T02:33:36.163Z",
+      "employee": "kgkqryli9mqivyf8i",
+      "employeeName": "Alex Rivera",
+      "type": "sick",
+      "startDate": "2026-06-15T02:33:36.163Z",
+      "endDate": "2026-06-16T02:33:36.163Z",
+      "reason": "Recovering from flu",
+      "status": "approved",
+      "approvedBy": "Sarah Jenkins"
+    },
+    {
+      "_id": "nm005f76pmqivyf8k",
+      "id": "6nm9cfp9cmqivyf8k",
+      "createdAt": "2026-06-18T02:33:36.164Z",
+      "updatedAt": "2026-06-19T10:58:56.291Z",
+      "employee": "5d40ksuo1mqivyf8j",
+      "employeeName": "Liam Chen",
+      "type": "casual",
+      "startDate": "2026-06-23T02:33:36.164Z",
+      "endDate": "2026-06-25T02:33:36.164Z",
+      "reason": "Family event",
+      "status": "rejected",
+      "approvedBy": "System Admin"
+    }
+  ],
+  "salaries": [
+    {
+      "_id": "hvn2d7b2gmqivyf8l",
+      "id": "2n6tmqdtcmqivyf8l",
+      "createdAt": "2026-06-18T02:33:36.165Z",
+      "updatedAt": "2026-06-18T02:33:36.165Z",
+      "employee": "kgkqryli9mqivyf8i",
+      "employeeName": "Alex Rivera",
+      "employeeEmail": "employee@company.com",
+      "month": "May",
+      "year": 2026,
+      "basicSalary": 95000,
+      "allowances": 1500,
+      "deductions": 500,
+      "netSalary": 96000,
+      "status": "paid"
+    }
+  ],
+  "attendance": [
+    {
+      "_id": "poiu90rsgmqivyf8k",
+      "id": "lav8kaolomqivyf8k",
+      "createdAt": "2026-06-18T02:33:36.164Z",
+      "updatedAt": "2026-06-18T02:33:36.164Z",
+      "employee": "kgkqryli9mqivyf8i",
+      "employeeName": "Alex Rivera",
+      "date": "2026-06-17",
+      "checkIn": "09:05:12",
+      "checkOut": "18:10:45",
+      "status": "present"
+    },
+    {
+      "_id": "t93b4ftvkmqivyf8l",
+      "id": "4aqbg0repmqivyf8l",
+      "createdAt": "2026-06-18T02:33:36.165Z",
+      "updatedAt": "2026-06-18T02:33:36.165Z",
+      "employee": "5d40ksuo1mqivyf8j",
+      "employeeName": "Liam Chen",
+      "date": "2026-06-17",
+      "checkIn": "08:58:32",
+      "checkOut": "17:02:15",
+      "status": "present"
+    },
+    {
+      "_id": "m27b25ge9mqixg4q5",
+      "id": "i10132e7fmqixg4q5",
+      "createdAt": "2026-06-18T03:15:21.965Z",
+      "updatedAt": "2026-06-18T03:15:21.965Z",
+      "employee": "kgkqryli9mqivyf8i",
+      "employeeName": "Alex Rivera",
+      "date": "2026-06-18",
+      "checkIn": "08:45:21",
+      "status": "present"
+    },
+    {
+      "_id": "8rhrenkzlmqkrlp8o",
+      "id": "agr4sqgbemqkrlp8o",
+      "createdAt": "2026-06-19T10:07:16.488Z",
+      "updatedAt": "2026-06-19T10:07:16.488Z",
+      "employee": "2hbybrmfmmqkrleid",
+      "employeeName": "lohit",
+      "date": "2026-06-19",
+      "checkIn": "15:37:16",
+      "status": "present"
+    }
+  ],
+  "reviews": [
+    {
+      "_id": "uhlaq04ramqivyf8m",
+      "id": "gn3894mbvmqivyf8m",
+      "createdAt": "2026-06-18T02:33:36.166Z",
+      "updatedAt": "2026-06-18T02:33:36.166Z",
+      "employee": "kgkqryli9mqivyf8i",
+      "employeeName": "Alex Rivera",
+      "reviewerName": "Sarah Jenkins",
+      "rating": 5,
+      "feedback": "Alex has shown excellent initiative in improving the codebase performance. Keep it up!",
+      "reviewPeriod": "Q1 2026"
+    }
+  ]
+}
